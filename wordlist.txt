@@ -148,7 +148,6 @@ Beelzebub
 Belgian Malinois
 Belize
 belletrist
-2
 Bell’s palsy
 bereavement
 beriberi
@@ -450,7 +449,6 @@ en garde
 enantiomeric
 encapsulated (adj.)
 encroaches
-3
 encyclopedist,
 Encyclopedist
 endocrinology
@@ -603,7 +601,6 @@ halobiont
 hamadryad
 happenstance
 happi coat
-4
 Harare
 harrumph
 hauberk
@@ -754,7 +751,6 @@ khanate
 Kilauea
 kinesiology
 kleptocracy
-5
 Klondike
 knobkerrie
 kobold
@@ -905,7 +901,6 @@ Munich
 Murphy bed
 museology
 musquash
-6
 myalgia
 mycosis
 myelofibrosis
@@ -1057,7 +1052,6 @@ petrel
 phalange
 phenobarbital
 pheochromocytoma
-7
 philately
 philologist
 phlebosclerosis
@@ -1213,7 +1207,6 @@ rocketsonde
 roentgenology
 romaine
 Rorschach test
-8
 rosarian
 rose chafer
 roulade
@@ -1364,7 +1357,6 @@ telegenic
 telephotograph
 tempestuous
 tendinitis, tendonitis
-9
 tenorrhaphy
 tentacular
 teratogen
@@ -1416,7 +1408,6 @@ tumid
 tumultuous
 turquoise
 tutti-frutti
-10
 tuyère
 ultraconservative
 ultramontane,
