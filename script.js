@@ -36,8 +36,15 @@ function chk_word(){
 function start(){
     //test();
     $("#toggle1").hide();
-    $("#toggle2").show();
     $("#text_input").val("");
+
+    /* had to change the way 'toggle2' was toggled (shown below) bcz the new CSS messed it up somehow
+    original was just $("#toggle2").show(); and toggle2 used to be an id rather than a class */
+    var elem = document.getElementsByClassName("toggle2")
+    for (var i = 0; i < elem.length; i++) {
+        elem[i].style.display = "block";
+    }
+
     do{
         word_idx = Math.floor(Math.random() * w2023_l);
     }while(!chk_word());
@@ -51,11 +58,12 @@ function submit(){
     let typed = $("#text_input").val();
     if(typed === word){
         correct++;
-        $("#correct").append("<br>" + word);
+        $("#correct").append("<br><b>" + word + "</b>");
     }else{
-        $("#incorrect").append("<br>" + word + " (You spelled: " + typed + ")");
+        $("#incorrect").append("<br><b>" + word + "</b> (You entered: " + typed + ")");
     }
     total++;
-    $("#stats").text(correct.toString() + " out of " + total.toString() + " correct");
+    let percent = Math.round(correct / total * 100);
+    $("#stats").text(correct.toString() + " out of " + total.toString() + " correct (" + percent.toString() + "%)");
     start();
 }

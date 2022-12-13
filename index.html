@@ -4,26 +4,59 @@
         <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"></script>
         <script src="2023.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>2023 UIL Spelling Trainer</title>
     </head>
+
     <body>
-        <div id="toggle1">
-            <h3>click button to start</h3>
-            <button onclick="start();">get a word</button>
-        </div>
-        <div id="toggle2" hidden>
-            <button onclick="audio();">listen to the word</button>
-            <br><br>Enter the word: <input id="text_input" type="text">
-            <button onclick="submit();">submit</button>
-            <h3 id="stats">0 out of 0 correct</h3>
-            <div style="display:table;width:100%">
-                <div style="float:left;width:50%;color:green">
-                    <h3>Correct:</h3>
-                    <h4 id="correct"></h4>
+        <header style="text-align:center;"> <h1>2023 UIL Spelling Trainer</h1> </header>
+        <br>
+
+        <div class="container">
+            <div class="row">
+                <div id="toggle1">
+                    <h3>Click the button below to start practicing!</h3>
+                    <button onclick="start();">Get a Word</button>
                 </div>
-                <div style="float:left;width:50%;color:red">
-                    <h3>Incorrect:</h3>
-                    <h4 id="incorrect"></h4>
-                </div>
+
+
+
+                <section class="col-md-6 col-xl-6">
+                    <div class="toggle2" style="display:none;">
+                        <!-- used to be <div id="toggle2" hidden> -->
+                        <button onclick="audio();">Listen to the Pronunciation</button>
+                        <br><br>
+                        Spell the word here: <input id="text_input" type="text">
+                        <button onclick="submit();">Submit</button>
+                        <h3 id="stats">0 out of 0 correct</h3>
+                    </div>
+                </section>
+
+                <section class="col-md-3 col-xl-3">
+                    <div class="toggle2" style="display:none;">
+                        <!-- used to be <div id="toggle2" hidden> -->
+                        <div style="display:table;width:100%">
+                            <div style="float:left;width:100%;color:green">
+                                <h3>Correct:</h3>
+                                <h4 id="correct"></h4>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="col-md-3 col-xl-3">
+                    <div class="toggle2" style="display:none;">
+                        <!-- used to be <div id="toggle2" hidden> -->
+                        <div style="display:table;width:100%">
+                            <div style="float:left;width:100%;color:red">
+                                <h3>Incorrect:</h3>
+                                <p id="incorrect"></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
             </div>
         </div>
         <script src="script.js"></script>
