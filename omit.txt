@@ -1,0 +1,234 @@
+omit: abelia, Abelia
+omit: adipose tissue
+omit: Adirondack Mountains
+omit: Adonis, adonis
+omit: adversary, Adversary
+omit: aigrette, aigret
+omit: All Fools’ Day
+omit: anapest, anapaest
+omit: Angelus, angelus
+omit: Anglo-Saxon
+omit: annus mirabilis
+omit: anomie, anomy
+omit: anti-Semitism
+omit: archaeology, archeology
+omit: archaic smile
+omit: Aristotelian, Aristotelean
+omit: ascendancy, ascendency
+omit: Bacchanalia, bacchanalia
+omit: baidarka, bidarka
+omit: bandoleer, bandolier
+omit: Barbary Coast
+omit: basil (herb)
+omit: beef Wellington
+omit: 2
+omit: Bell’s palsy
+omit: bichon frisé,
+omit: bichon frise (singular)
+omit: bon vivant (singular)
+omit: Britannia, britannia
+omit: broad-spectrum
+omit: Brussels sprouts
+omit: bush leaguer
+omit: calliope (instrument)
+omit: campanile (singular)
+omit: carabiniere (singular)
+omit: cartouche, cartouch
+omit: cat-o’-nine-tails
+omit: celestial, Celestial
+omit: character assassination
+omit: ciré, cire
+omit: class action (noun)
+omit: clerestory, clearstory
+omit: commedia dell’arte
+omit: Conestoga wagon
+omit: Corona Australis
+omit: cotoneaster, Cotoneaster
+omit: crocus, Crocus
+omit: cynicism, Cynicism
+omit: cystic fibrosis
+omit: dapple-gray
+omit: Darjeeling (tea)
+omit: de Broglie
+omit: décor, decor
+omit: deep-six (verb)
+omit: defoliate (verb)
+omit: delft, Delft
+omit: Dirac sea
+omit: dissenter, Dissenter
+omit: Doric order
+omit: drosophila, Drosophila
+omit: encapsulated (adj.)
+omit: 3
+omit: encyclopedist,
+omit: eonian, aeonian
+omit: Episcopalian, episcopalian
+omit: euonymus, Euonymus
+omit: eureka (interj.)
+omit: executive privilege
+omit: eye rhyme
+omit: fait accompli (singular)
+omit: femme fatale (singular)
+omit: fiber optics
+omit: Fibonacci sequence
+omit: ficus, Ficus
+omit: floriated, floreated
+omit: Formica (trademark)
+omit: forty-niner
+omit: Fräulein, fräulein
+omit: fundamentalism,
+omit: galopade, gallopade
+omit: Garrison finish
+omit: gâteau, gateau (singular)
+omit: genesis, Genesis
+omit: glycerin, glycerine
+omit: guerrilla theater
+omit: gunboat diplomacy
+omit: haj, hajj, hadj
+omit: 4
+omit: haute cuisine
+omit: hearing-impaired
+omit: helot, Helot
+omit: Herculean, herculean
+omit: Herefords
+omit: high-resolution
+omit: Hodgkin’s lymphoma
+omit: holy war, Holy War
+omit: hydrocephalus (noun)
+omit: I-beam
+omit: ill-conceived
+omit: jabiru, Jabiru
+omit: Jakarta, Djakarta
+omit: Job’s comforter
+omit: kaput, kaputt
+omit: Kemp’s ridley
+omit: keynote address
+omit: 5
+omit: labyrinth, Labyrinth
+omit: langsyne, lang syne
+omit: lasagna, lasagne
+omit: lavabo, Lavabo
+omit: Legionnaires’ disease
+omit: lilies of the valley
+omit: linchpin, lynchpin
+omit: lip-synch, lip-sync
+omit: liquidambar, Liquidambar
+omit: listeria, Listeria
+omit: long-suffering
+omit: lug sole
+omit: mackintosh, macintosh
+omit: maglev, Maglev
+omit: magnum opus
+omit: mahatma, Mahatma
+omit: mahjong, mahjongg
+omit: manège, manege
+omit: manic-depressive
+omit: mare’s nest
+omit: mecca, Mecca
+omit: Medicare, medicare
+omit: mélange, melange
+omit: Ménière’s disease
+omit: messianic, Messianic
+omit: Miniconjou, Minneconjou
+omit: miosis, myosis
+omit: misericord, misericorde
+omit: missilery, missilry
+omit: miter box
+omit: mud dauber
+omit: Murphy bed
+omit: 6
+omit: nacreous cloud
+omit: Narragansett, Narraganset
+omit: negritude, Negritude
+omit: neoclassicism,
+omit: nine-to-fiver
+omit: North Saskatchewan
+omit: Novocain (trademark)
+omit: objet d’art (singular)
+omit: old wives’ tale
+omit: open-ended
+omit: optic chiasma
+omit: opuntia, Opuntia
+omit: orthodoxy, Orthodoxy
+omit: osnaburg (fabric)
+omit: Ottoman Empire
+omit: panic-stricken
+omit: paramatta, parramatta
+omit: paramecium, Paramecium
+omit: pemmican, pemican
+omit: pencel, pensil
+omit: pentagon, Pentagon
+omit: 7
+omit: Pidgin English,
+omit: pidgin English
+omit: Polaroid (trademark)
+omit: potter’s wheel
+omit: predaceous, predacious
+omit: premiered, premièred
+omit: professoriate, professoriat
+omit: prohibitionist,
+omit: prosopopeia,
+omit: protectorate, Protectorate
+omit: quantum leap
+omit: quassia, Quassia
+omit: quintet, quintette
+omit: rebec, rebeck
+omit: reconnaissance,
+omit: recreational vehicle
+omit: réseau, reseau (singular)
+omit: (singular)
+omit: 8
+omit: rose chafer
+omit: Salisbury steak
+omit: Samaritan, samaritan
+omit: San Joaquin
+omit: sansevieria, Sansevieria
+omit: sarcophagus (noun)
+omit: saturnalia, Saturnalia
+omit: Scaramouch, Scaramouche
+omit: schefflera, Schefflera
+omit: scriptural, Scriptural
+omit: sea anemone
+omit: Secchi disk
+omit: self-determination
+omit: Shasta daisy
+omit: Shoshone, Shoshoni
+omit: shrink-wrap
+omit: sidereal day
+omit: silesia, Silesia
+omit: silica gel
+omit: skepticism, scepticism
+omit: sloops of war
+omit: soigné, soignée
+omit: spinning jenny
+omit: squint-eyed
+omit: sugar-cured
+omit: susurrus (noun)
+omit: sweet alyssum
+omit: Sybarite, sybarite
+omit: tabernacle, Tabernacle
+omit: Tallahatchie
+omit: tendinitis, tendonitis
+omit: 9
+omit: Texas hold’em
+omit: Tietze’s syndrome
+omit: timpanist, tympanist
+omit: Tourette’s syndrome
+omit: transcendentalism,
+omit: transfiguration,
+omit: trigeminal neuralgia
+omit: 10
+omit: ultramontane,
+omit: Ursa Minor
+omit: venetian blue
+omit: Vienna sausage
+omit: vulgate, Vulgate
+omit: waterborne, water-borne
+omit: Weil’s disease
+omit: Wernicke’s area
+omit: widow’s mite
+omit: writer’s block
+omit: wushu, wu shu
+omit: x-radiation
+omit: zero-based
+omit: zoysia, Zoysia

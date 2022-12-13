@@ -1,10 +1,31 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"></script>
+        <script src="2023.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        test
-        <button onclick="test();">click</button>
+        <div id="toggle1">
+            <h3>click button to start</h3>
+            <button onclick="start();">get a word</button>
+        </div>
+        <div id="toggle2" hidden>
+            <button onclick="audio();">listen to the word</button>
+            <br><br>Enter the word: <input id="text_input" type="text">
+            <button onclick="submit();">submit</button>
+            <h3 id="stats">0 out of 0 correct</h3>
+            <div style="display:table;width:100%">
+                <div style="float:left;width:50%;color:green">
+                    <h3>Correct:</h3>
+                    <h4 id="correct"></h4>
+                </div>
+                <div style="float:left;width:50%;color:red">
+                    <h3>Incorrect:</h3>
+                    <h4 id="incorrect"></h4>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>
