@@ -16,10 +16,42 @@
         <div class="container">
             <div class="row">
                 <div id="toggle1">
-                    <h3>Click the button below to start practicing!</h3>
+                    <h2>Welcome to the UIL Spelling Trainer, brought to you by Eric Yang (and Warith Rahman)!!<h2>
+                    <h4>Select the set number you want to practice, then click the button below to get started!</h4>
+
+                    <table>
+                        <tr>
+                            <td onclick="select(this)">1</td>
+                            <td onclick="select(this)">2</td>
+                            <td onclick="select(this)">3</td>
+                            <td onclick="select(this)">4</td>
+                            <td onclick="select(this)">5</td>
+                        </tr>
+                        <tr>
+                            <td onclick="select(this)">6</td>
+                            <td onclick="select(this)">7</td>
+                            <td onclick="select(this)">8</td>
+                            <td onclick="select(this)">9</td>
+                            <td onclick="select(this)">10</td>
+                        </tr>
+                        <tr>
+                            <td onclick="select(this)">11</td>
+                            <td onclick="select(this)">12</td>
+                            <td onclick="select(this)">13</td>
+                            <td onclick="select(this)">14</td>
+                            <td onclick="select(this)">15</td>
+                        </tr>
+                        <tr>
+                            <td onclick="select(this)">16</td>
+                            <td onclick="select(this)">17</td>
+                            <td onclick="select(this)">18</td>
+                            <td onclick="select(this)">19</td>
+                            <td onclick="select(this)">20</td>
+                        </tr>
+                    </table>
+
                     <button onclick="start();">Get a Word</button>
                 </div>
-
 
 
                 <section class="col-md-6 col-xl-6">
@@ -94,6 +126,12 @@
                         </div>
                     </div>
                 </section>
+
+                <div class="toggle3" style="display:none;">
+                    <h2 id="msg-set">Congrats on finishing Set <h2>
+                    <h4 id="msg-right">Out of the 75 words, you got </h4>
+                    <h4>To practice some more, reload the page</h4>
+                </div>
 
             </div>
         </div>

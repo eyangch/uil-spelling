@@ -4,6 +4,19 @@ $("#text_input").keyup(function(e){
     }
 });
 
+var clicked = 1;
+function select(cell) {
+    let cells = document.querySelectorAll("td");
+    for (let i = 0; i < cells.length; ++i) {
+        cells[i].style.backgroundColor = "#f9f9f9";
+    }
+    cell.style.backgroundColor = "#008aff";
+
+    clicked = cell.innerHTML;
+    console.log(clicked);
+}
+
+
 var w2023_l = w2023.length;
 var word_url = "";
 var word = "";
@@ -45,9 +58,25 @@ function start(){
         elem[i].style.display = "block";
     }
 
-    do{
-        word_idx = Math.floor(Math.random() * w2023_l);
-    }while(!chk_word());
+    if (used_idx.length == 75) {
+        var hide = document.getElementsByClassName("toggle2");
+        var show = document.getElementsByClassName("toggle3");
+
+        for (var i = 0; i < hide.length; i++) {
+            hide[i].style.display = "none";
+        }
+        for (var i = 0; i < show.length; i++) {
+            show[i].style.display = "block";
+        }
+
+        document.getElementById("msg-set").innerHTML += clicked.toString() + "!";
+        document.getElementById("msg-right").innerHTML += correct.toString() + " of them right!"
+
+        return;
+    }
+    do {
+        word_idx = Math.floor(Math.random() * 75) * 20 + parseInt(clicked) - 1;
+    } while (!chk_word());
     used_idx.push(word_idx);
     word = w2023[word_idx][0];
     word_url = w2023[word_idx][1];

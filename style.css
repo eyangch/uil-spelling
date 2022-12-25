@@ -95,3 +95,21 @@ h2 {
 	border: 2px solid black;
 	line-height: 25px;
 }
+
+table {
+	border: 1px solid black;
+	box-sizing: border-box;
+	text-align: center;
+	align-items: center;
+	font-size: 60px;
+	padding: 10px;
+	border: 2px solid black;
+	line-height: 25px;
+}
+
+td {
+	flex: 1;
+	border: 1px solid gray;
+	width: 100px;
+	height: 100px;
+}
