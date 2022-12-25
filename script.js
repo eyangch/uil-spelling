@@ -67,3 +67,11 @@ function submit(){
     $("#stats").text(correct.toString() + " out of " + total.toString() + " correct (" + percent.toString() + "%)");
     start();
 }
+
+var buttons = document.querySelectorAll(".insert");
+var field = document.getElementById("text_input");
+buttons.forEach( function(button) {
+    button.addEventListener('click', function() {
+        field.value = field.value + button.value;
+    })
+});
