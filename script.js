@@ -85,7 +85,15 @@ function start(){
 
 function submit(){
     let typed = $("#text_input").val();
-    if(typed === word){
+    const arr = word.split("|");
+    var b = false;
+    arr.forEach(function check(s) {
+        if (typed === s) {
+            b = true;
+        }
+    });
+
+    if(b == true){
         correct++;
         $("#correct").append("<br><b>" + word + "</b>");
     }else{
