@@ -14,6 +14,17 @@ function select(cell) {
 
     clicked = cell.innerHTML;
     console.log(clicked);
+
+    // now add pronunciations
+    txt = "<ul>\n";
+    for (var i = parseInt(clicked)-1; i < 1500; i += 20) {
+        console.log(w2023[i]);
+        txt += "\t<li>" + w2023[i][0].split("|")[0];
+        txt += "<a onclick=\"word_url=w2023[" + i + "][1];audio();\">▶️</button></li>\n";
+    }
+    txt += "</ul>\n";
+
+    document.getElementById("pron").innerHTML = txt;
 }
 
 
@@ -48,12 +59,15 @@ function chk_word(){
 
 function start(){
     //test();
-    $("#toggle1").hide();
+    var rem = document.getElementsByClassName("toggle1");
+    for (var i = 0; i < rem.length; i++) {
+        rem[i].style.display = "none";
+    }
     $("#text_input").val("");
 
     /* had to change the way 'toggle2' was toggled (shown below) bcz the new CSS messed it up somehow
     original was just $("#toggle2").show(); and toggle2 used to be an id rather than a class */
-    var elem = document.getElementsByClassName("toggle2")
+    var elem = document.getElementsByClassName("toggle2");
     for (var i = 0; i < elem.length; i++) {
         elem[i].style.display = "block";
     }

@@ -15,46 +15,45 @@
 
         <div class="container">
             <div class="row">
-                <div id="toggle1">
-                    <h2>Welcome to the UIL Spelling Trainer, brought to you by Eric Yang (and Warith Rahman)!!<h2>
-                    <h4>Select the set number you want to practice, then click the button below to get started!</h4>
-
-                    <table>
-                        <tr>
-                            <td onclick="select(this)">1</td>
-                            <td onclick="select(this)">2</td>
-                            <td onclick="select(this)">3</td>
-                            <td onclick="select(this)">4</td>
-                            <td onclick="select(this)">5</td>
-                        </tr>
-                        <tr>
-                            <td onclick="select(this)">6</td>
-                            <td onclick="select(this)">7</td>
-                            <td onclick="select(this)">8</td>
-                            <td onclick="select(this)">9</td>
-                            <td onclick="select(this)">10</td>
-                        </tr>
-                        <tr>
-                            <td onclick="select(this)">11</td>
-                            <td onclick="select(this)">12</td>
-                            <td onclick="select(this)">13</td>
-                            <td onclick="select(this)">14</td>
-                            <td onclick="select(this)">15</td>
-                        </tr>
-                        <tr>
-                            <td onclick="select(this)">16</td>
-                            <td onclick="select(this)">17</td>
-                            <td onclick="select(this)">18</td>
-                            <td onclick="select(this)">19</td>
-                            <td onclick="select(this)">20</td>
-                        </tr>
-                    </table>
-
-                    <button onclick="start();">Start Practicing!</button>
-                </div>
-
-
+                <h2>Welcome to the UIL Spelling Trainer, brought to you by Eric Yang (and Warith Rahman)!!<h2>
+                <h4>Select the set number you want to practice, then click the button below to get started!</h4>
                 <section class="col-md-6 col-xl-6">
+                    <div class="toggle1">
+
+                        <table>
+                            <tr>
+                                <td onclick="select(this)">1</td>
+                                <td onclick="select(this)">2</td>
+                                <td onclick="select(this)">3</td>
+                                <td onclick="select(this)">4</td>
+                                <td onclick="select(this)">5</td>
+                            </tr>
+                            <tr>
+                                <td onclick="select(this)">6</td>
+                                <td onclick="select(this)">7</td>
+                                <td onclick="select(this)">8</td>
+                                <td onclick="select(this)">9</td>
+                                <td onclick="select(this)">10</td>
+                            </tr>
+                            <tr>
+                                <td onclick="select(this)">11</td>
+                                <td onclick="select(this)">12</td>
+                                <td onclick="select(this)">13</td>
+                                <td onclick="select(this)">14</td>
+                                <td onclick="select(this)">15</td>
+                            </tr>
+                            <tr>
+                                <td onclick="select(this)">16</td>
+                                <td onclick="select(this)">17</td>
+                                <td onclick="select(this)">18</td>
+                                <td onclick="select(this)">19</td>
+                                <td onclick="select(this)">20</td>
+                            </tr>
+                        </table>
+
+                        <button onclick="start();">Start Practicing!</button>
+                    </div>
+
                     <div class="toggle2" style="display:none;">
                         <!-- used to be <div id="toggle2" hidden> -->
                         <button onclick="audio();">Listen to the Pronunciation</button>
@@ -104,6 +103,10 @@
                 </section>
 
                 <section class="col-md-3 col-xl-3">
+                    <div class="toggle1" id="pron">
+                        <h5 style="text-align:center;" id="pron">When you click a set number, a list of the words with their pronunciations will appear here!!</h5>
+                    </div>
+
                     <div class="toggle2" style="display:none;">
                         <!-- used to be <div id="toggle2" hidden> -->
                         <div style="display:table;width:100%">
