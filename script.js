@@ -4,6 +4,8 @@ $("#text_input").keyup(function(e){
     }
 });
 
+var missed = [];
+
 var clicked = 1;
 function select(cell) {
     let cells = document.querySelectorAll("td");
@@ -13,18 +15,17 @@ function select(cell) {
     cell.style.backgroundColor = "#008aff";
 
     clicked = cell.innerHTML;
-    console.log(clicked);
 
     // now add pronunciations
     txt = "<ul>\n";
     for (var i = parseInt(clicked)-1; i < 1500; i += 20) {
-        console.log(w2023[i]);
         txt += "\t<li>" + w2023[i][0].split("|")[0];
         txt += "<a onclick=\"word_url=w2023[" + i + "][1];audio();\">▶️</button></li>\n";
     }
     txt += "</ul>\n";
 
     document.getElementById("pron").innerHTML = txt;
+    missed = [];
 }
 
 
@@ -86,6 +87,16 @@ function start(){
         document.getElementById("msg-set").innerHTML += clicked.toString() + "!";
         document.getElementById("msg-right").innerHTML += correct.toString() + " of them right!"
 
+        // ok now add list of wrong words
+        var miss_txt = "";
+        missed.sort((a,b) => a.localeCompare(b, undefined, {sensitivity: 'base'}));
+        missed.forEach(
+            function app(s) {
+                miss_txt += "<li>" + s + "</li>\n";
+            }
+        );
+        document.getElementById("end_wrong").innerHTML = miss_txt;
+
         return;
     }
     do {
@@ -112,6 +123,7 @@ function submit(){
         $("#correct").append("<br><b>" + word + "</b>");
     }else{
         $("#incorrect").append("<br><b>" + word + "</b> (You entered: " + typed + ")");
+        missed.push(word);
     }
     total++;
     let percent = Math.round(correct / total * 100);
