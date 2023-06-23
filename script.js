@@ -19,8 +19,8 @@ function select(cell) {
     // now add pronunciations
     txt = "<ul>\n";
     for (var i = parseInt(clicked)-1; i < 1500; i += 20) {
-        txt += "\t<li>" + w2023[i][0].split("|")[0];
-        txt += "<a onclick=\"word_url=w2023[" + i + "][1];audio();\">▶️</button></li>\n";
+        txt += "\t<li>" + w2024[i][0].split("|")[0];
+        txt += "<a onclick=\"word_url=w2024[" + i + "][1];audio();\">▶️</button></li>\n";
     }
     txt += "</ul>\n";
 
@@ -29,7 +29,7 @@ function select(cell) {
 }
 
 
-var w2023_l = w2023.length;
+var w2024_l = w2024.length;
 var word_url = "";
 var word = "";
 var word_idx;
@@ -46,7 +46,7 @@ function audio(){
 
 function test(){
     audio("https://www.ahdictionary.com/application/resources/wavs/T0070900.wav");
-    console.log(w2023[0])
+    console.log(w2024[0])
 }
 
 function chk_word(){
@@ -103,8 +103,8 @@ function start(){
         word_idx = Math.floor(Math.random() * 75) * 20 + parseInt(clicked) - 1;
     } while (!chk_word());
     used_idx.push(word_idx);
-    word = w2023[word_idx][0];
-    word_url = w2023[word_idx][1];
+    word = w2024[word_idx][0];
+    word_url = w2024[word_idx][1];
     audio();
 }
 

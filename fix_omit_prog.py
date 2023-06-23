@@ -27,12 +27,12 @@ headers = {
 # the below prog tries to fix that
 # there's also some cases of weird chars or trailing commas that may have messed things up
 
-with open("2023.js", "a") as f:
+with open("2024.js", "a") as f:
 	f.write("\n\n") # just separate the two lists
 	fst = 1
 	with open("omit.txt") as w:
 		for word in w.readlines():
-			word = re.split(", ", word.strip()[6:])[0]
+			word = re.split(", ", word.strip())[0]
 			
 			if ' ' in word or '-' in word:
 				url = "https://www.ahdictionary.com/word/search.html?q=" + urllib.parse.quote_plus(word, safe='-/')
@@ -54,7 +54,7 @@ with open("2023.js", "a") as f:
 				idx = r.find("/application/resources/wavs/")
 				#print(idx)
 				if idx == -1:
-					print("omit: " + word)
+					print("omit: " + word, flush=True)
 					open("omit_take_two.txt", "a").write(word + "\n")
 					continue
 				if not fst:

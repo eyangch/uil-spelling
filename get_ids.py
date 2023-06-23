@@ -1,6 +1,6 @@
 import requests
 
-year = 2023
+year = 2024
 
 headers = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
@@ -20,12 +20,15 @@ headers = {
     'sec-ch-ua-platform': '"Windows"',
 }
 
-
-with open("2023.js", "w") as f:
+ff = open('omit.txt', 'w', encoding='utf-8')
+cnt = 0
+with open("2024.js", "w") as f:
 	f.write("var w" + str(year) + " = [\n")
 	fst = 1
-	with open("wordlist.txt") as w:
+	with open("wordlist.txt", encoding='utf-8') as w:
 		for word in w.readlines():
+			print(f'Working on #{cnt+1}', flush=True)
+			cnt += 1
 			word = word.strip()
 			params = {
 				'q': word
@@ -35,7 +38,7 @@ with open("2023.js", "w") as f:
 			idx = r.find("/application/resources/wavs/")
 			#print(idx)
 			if idx == -1:
-				print("omit: " + word)
+				ff.write(str(word) + '\n')
 				continue
 			if not fst:
 				f.write(",\n")
@@ -43,3 +46,5 @@ with open("2023.js", "w") as f:
 			f.write("[\"" + word + "\",\"https://www.ahdictionary.com" + r[idx:idx+40] + "\"]")
 			f.flush()
 	f.write("\n]\n")
+
+ff.close()
