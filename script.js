@@ -114,6 +114,7 @@ function start(){
     word = w2027[word_idx][0];
     word_url = w2027[word_idx][1];
     audio();
+    field.focus();
 }
 
 function submit(){
@@ -144,5 +145,6 @@ var field = document.getElementById("text_input");
 buttons.forEach( function(button) {
     button.addEventListener('click', function() {
         field.value = field.value + button.value;
+        field.focus();
     })
 });
