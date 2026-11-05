@@ -19,10 +19,10 @@ headers = {
     'sec-ch-ua-platform': '"Windows"',
 }
 
-L = len(open("2023.js", "r").readlines()) # total words
+L = len(open("2024.js", "r").readlines()) # total words
 done = 0 # number processed
 
-for w in open("2023.js", "r").readlines():
+for w in open("2024.js", "r").readlines():
     done += 1
 
     w = w.strip()
