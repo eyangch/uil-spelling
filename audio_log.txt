@@ -1,0 +1,246 @@
+Words whose audio is not an exact-headword clip from ahdictionary.com, or that need a note (243 of 1500).
+Every other word uses the AHD clip attached to that exact headword. Numbers are official Word Power numbers.
+
+#3    abasement  ->  "abasement" exact word (Google)
+#14   accountancy  ->  "accountancy" exact word (Google)
+#24   adiposity  ->  "adiposity" exact word (Google)
+#42   aloe vera  ->  "aloe vera" full term (Google); AHD clip only says "vera"
+#45   alto clef  ->  "alto clef" exact word (Google)
+#71   anti-infective  ->  "anti-infective" exact word (howtopronounce)
+#74   Apalachicola River  ->  "Apalachicola River" full term (howtopronounce); AHD clip only says "Apalachicola" [give it a listen: speech check heard "Apple at your Kohler River."]
+#81   approbatory  ->  "approbatory" exact word (Google)
+#91   arroyos  ->  "arroyos" exact word (Google)
+#95   assayer  ->  "assayer" exact word (Google)
+#103  aureola  ->  "aureola" exact word (Google)
+#112  baby boomer  ->  "baby boomer" exact word (Google)
+#114  bacteriogenous  ->  "bacteriogenous" exact word (howtopronounce, user-submitted) [give it a listen: speech check heard "Bacteriogenesis"]
+#119  ball-peen hammer  ->  clip only says "ball-peen" (AHD); no full-term clip found
+#120  Baltic States  ->  "Baltic States" exact word (Google)
+#122  banzai attack  ->  "banzai attack" exact word (howtopronounce, user-submitted)
+#134  bemusement  ->  "bemusement" exact word (Google)
+#135  benignities  ->  "benignities" exact word (howtopronounce, user-submitted)
+#139  biannually  ->  "biannually" exact word (Google)
+#145  biodegradation  ->  "biodegradation" exact word (Wiktionary)
+#146  bioethicist  ->  "bioethicist" exact word (howtopronounce, user-submitted)
+#151  bootlicker  ->  "bootlicker" exact word (Google)
+#156  brave new world  ->  "brave new world" exact word (howtopronounce, user-submitted)
+#157  bravoing  ->  "bravoing" exact word (howtopronounce, user-submitted)
+#158  brevetcy  ->  "brevetcy" exact word (howtopronounce, user-submitted) [give it a listen: speech check heard "Bravetti"]
+#166  Bunsen burner  ->  "Bunsen burner" exact word (Google)
+#173  calcaneum  ->  "calcaneum" exact word (Google)
+#183  capriciousness  ->  "capriciousness" exact word (Wiktionary)
+#191  cashier's check  ->  "cashier's check" exact word (howtopronounce, user-submitted)
+#206  chagrined  ->  "chagrined" exact word (Google)
+#211  charm quark  ->  "charm quark" exact word (howtopronounce, user-submitted)
+#229  cirrhotic  ->  "cirrhotic" exact word (Google) [give it a listen: speech check heard "Sarotic."]
+#230  clamminess  ->  "clamminess" exact word (Google)
+#234  cloven-footed  ->  "cloven-footed" exact word (howtopronounce, user-submitted)
+#240  cold-eyed  ->  "cold-eyed" exact word (howtopronounce, user-submitted)
+#241  coleopterous  ->  "coleopterous" exact word (howtopronounce, user-submitted) [give it a listen: speech check heard "Coli Optur is"]
+#254  conciliatory  ->  "conciliatory" exact word (Google)
+#260  conjugate  ->  "conjugate" main pronunciation only (AHD); dictionary gives a different one for: adj. (-gĭt,-gāt′), n. (-gĭt,-gāt′)
+#268  contumelious  ->  "contumelious" exact word (howtopronounce, user-submitted)
+#269  convoy  ->  "convoy" main pronunciation only (AHD); dictionary gives a different one for: tr.v. (kŏnvoi′,kən-voi)
+#271  copyrightable  ->  "copyrightable" exact word (howtopronounce, user-submitted)
+#274  corneal  ->  "corneal" exact word (Google)
+#276  corpus callosum  ->  "corpus callosum" full term (howtopronounce); AHD clip only says "callosum"
+#279  countercharge  ->  "countercharge" main pronunciation only (AHD); dictionary gives a different one for: v. (koun′tər-chärj)
+#281  crape myrtle  ->  "crape myrtle" exact word (Google)
+#290  cryptically  ->  "cryptically" exact word (Google)
+#300  Dallis grass  ->  "Dallis grass" full term (howtopronounce); AHD clip only says "Dallis"
+#303  data processor  ->  "data processor" exact word (howtopronounce, user-submitted)
+#304  daughters-in-law  ->  "daughters-in-law" exact word (Wiktionary)
+#312  decongestive  ->  "decongestive" exact word (howtopronounce, user-submitted)
+#313  decoyed  ->  "decoyed" exact word (Google)
+#316  defilement  ->  "defilement" exact word (Google)
+#328  denticular  ->  "denticular" exact word (howtopronounce, user-submitted)
+#331  deregulation  ->  "deregulation" exact word (Google)
+#347  diplomatic immunity  ->  "diplomatic immunity" exact word (Google)
+#351  discommoded  ->  "discommoded" exact word (howtopronounce, user-submitted)
+#359  distinguishable  ->  "distinguishable" exact word (Google)
+#366  double indemnity  ->  "double indemnity" exact word (Google)
+#377  early warning system  ->  "early warning system" exact word (Google)
+#395  embarkation  ->  "embarkation" exact word (Google)
+#408  entombment  ->  "entombment" exact word (Google)
+#429  evasiveness  ->  "evasiveness" exact word (Google)
+#433  excision  ->  "excision" exact word (Google)
+#434  executive privilege  ->  "executive privilege" exact word (Google)
+#435  exegetic  ->  "exegetic" exact word (howtopronounce, user-submitted)
+#436  exemptible  ->  "exemptible" exact word (howtopronounce, user-submitted)
+#439  explicitness  ->  "explicitness" exact word (Google)
+#441  expurgation  ->  "expurgation" exact word (Google)
+#457  felinity  ->  "felinity" exact word (Google)
+#461  Fertile Crescent  ->  "Fertile Crescent" full term (Google); AHD clip only says "Fertile"
+#462  fetal alcohol syndrome  ->  "fetal alcohol syndrome" exact word (Google)
+#467  fiscal year  ->  "fiscal year" exact word (Google)
+#470  flame-retardant  ->  "flame-retardant" exact word (Google)
+#474  fluoridation  ->  "fluoridation" exact word (Google)
+#475  focus group  ->  "focus group" exact word (Google)
+#479  fourth estate  ->  "fourth estate" exact word (Google)
+#489  gauchely  ->  "gauchely" exact word (howtopronounce, user-submitted) [give it a listen: speech check heard "ghostly"]
+#490  gefilte fish  ->  "gefilte fish" full term (Google); AHD clip only says "gefilte"
+#491  Geiger counter  ->  "Geiger counter" full term (Google); AHD clip only says "Geiger"
+#494  Genghis Khan  ->  "Genghis Khan" exact word (Google)
+#497  geomagnetic storm  ->  "geomagnetic storm" exact word (howtopronounce, user-submitted)
+#501  ghoulish  ->  "ghoulish" exact word (Google)
+#505  Gila monster  ->  "Gila monster" full term (Google); AHD clip only says "Gila"
+#508  glaucomatous  ->  "glaucomatous" exact word (howtopronounce, user-submitted) [give it a listen: speech check heard "Clock Omedis."]
+#514  go-getter  ->  "go-getter" exact word (Wiktionary, Australian accent)
+#517  gram-negative  ->  "gram-negative" exact word (Google)
+#524  G-suit  ->  "G-suit" exact word (howtopronounce, user-submitted)
+#526  gullibility  ->  "gullibility" exact word (Google)
+#530  gyrostatic  ->  "gyrostatic" exact word (howtopronounce, user-submitted)
+#539  hand-to-mouth  ->  "hand-to-mouth" exact word (Wiktionary, Australian accent)
+#540  harm's way  ->  NO AUDIO
+#544  haute école  ->  clip only says "école" (AHD); howtopronounce clip rejected, heard "Foody call"
+#546  heinously  ->  "heinously" exact word (howtopronounce, user-submitted)
+#566  Homo sapiens  ->  "Homo sapiens" full term (Google); AHD clip only says "sapiens"
+#571  hot-dogging  ->  NO AUDIO
+#572  hubristic  ->  "hubristic" exact word (Google)
+#573  humanitarianism  ->  "humanitarianism" exact word (Google)
+#574  hunter-gatherer  ->  "hunter-gatherer" exact word (howtopronounce, user-submitted)
+#580  hypocoristic  ->  "hypocoristic" exact word (Google)
+#586  iconographer  ->  "iconographer" exact word (Google)
+#588  idiotically  ->  "idiotically" exact word (Google)
+#595  immobility  ->  "immobility" exact word (Google)
+#597  immunologist  ->  "immunologist" exact word (howtopronounce, user-submitted)
+#620  influence peddling  ->  "influence peddling" exact word (Google)
+#623  inhibitable  ->  "inhibitable" exact word (howtopronounce, user-submitted)
+#625  innuendoes  ->  "innuendoes" exact word (Google)
+#660  jet-propelled  ->  "jet-propelled" exact word (howtopronounce, user-submitted)
+#668  jury-rigged  ->  "jury-rigged" exact word (howtopronounce, user-submitted) [give it a listen: speech check heard "Jerry Runde"]
+#687  klieg light  ->  "klieg light" full term (Google); AHD clip only says "klieg"
+#688  knock-kneed  ->  "knock-kneed" exact word (Wiktionary) [give it a listen: speech check heard "not need"]
+#699  Laffer curve  ->  "Laffer curve" full term (Google); AHD clip only says "Laffer"
+#701  lame duck  ->  "lame duck" exact word (howtopronounce, user-submitted)
+#713  law-abiding  ->  "law-abiding" exact word (howtopronounce, user-submitted)
+#714  lazy Susan  ->  "lazy Susan" exact word (Google)
+#721  letters of marque  ->  "letters of marque" exact word (Google)
+#731  litmus test  ->  "litmus test" exact word (Google)
+#737  louvered  ->  "louvered" exact word (Google)
+#738  lucidity  ->  "lucidity" exact word (Google)
+#766  manifest destiny  ->  "manifest destiny" exact word (Google)
+#772  marauder  ->  "marauder" exact word (Google)
+#773  Marfan syndrome  ->  "Marfan syndrome" full term (Google); AHD clip only says "Marfan"
+#783  maximization  ->  "maximization" exact word (Google)
+#787  means test  ->  "means test" exact word (Google)
+#790  megalopolistic  ->  "megalopolistic" exact word (howtopronounce, user-submitted)
+#807  Miesian  ->  "Miesian" exact word (howtopronounce, user-submitted) [give it a listen: speech check heard "Measion"]
+#810  mind-boggling  ->  "mind-boggling" exact word (Wiktionary, Australian accent)
+#811  miniaturization  ->  "miniaturization" exact word (Wiktionary)
+#818  misogynistic  ->  "misogynistic" exact word (Google)
+#819  misty-eyed  ->  "misty-eyed" exact word (howtopronounce, user-submitted)
+#824  monk's cloth  ->  "monk's cloth" exact word (howtopronounce, user-submitted)
+#836  Mrs. Grundy  ->  clip only says "Grundy" (AHD); no full-term clip found
+#837  muckraking  ->  "muckraking" exact word (Google)
+#839  Müllerian mimicry  ->  "Müllerian mimicry" full term (howtopronounce); AHD clip only says "Müllerian"
+#850  mythologic  ->  "mythologic" exact word (howtopronounce, user-submitted)
+#857  naysayer  ->  "naysayer" exact word (Google)
+#861  neoconservative  ->  "neoconservative" exact word (Google)
+#867  neurotically  ->  "neurotically" exact word (Wiktionary)
+#887  nuclear family  ->  "nuclear family" exact word (Wiktionary)
+#893  obsessiveness  ->  "obsessiveness" exact word (Google)
+#894  obtuseness  ->  "obtuseness" exact word (Google)
+#899  Ockham's razor  ->  "Ockham's razor" full term (howtopronounce); AHD clip only says "Ockham's"
+#902  odysseys  ->  "odysseys" exact word (Google)
+#913  oncologist  ->  "oncologist" exact word (Google)
+#921  Oregon Trail  ->  "Oregon Trail" exact word (Google)
+#924  orthographist  ->  "orthographist" exact word (howtopronounce, user-submitted)
+#934  ottava rima  ->  "ottava rima" full term (Google); AHD clip only says "rima"
+#936  overcommitment  ->  "overcommitment" exact word (howtopronounce, user-submitted)
+#950  Pan-American  ->  "Pan-American" exact word (Google)
+#951  Pandora's box  ->  "Pandora's box" full term (Google); AHD clip only says "Pandora's"
+#953  panhandler  ->  "panhandler" exact word (Google)
+#959  paratyphoid fever  ->  "paratyphoid fever" full term (howtopronounce); AHD clip only says "paratyphoid"
+#962  Parkinson's disease  ->  "Parkinson's disease" full term (Google); AHD clip only says "Parkinson's"
+#965  Parsons table  ->  "Parsons table" full term (Google); AHD clip only says "Parsons"
+#976  paunchiness  ->  "paunchiness" exact word (Google)
+#982  Peking man  ->  NO AUDIO
+#984  peninsular  ->  "peninsular" exact word (Google)
+#996  Peruvian  ->  "Peruvian" exact word (Google)
+#999  petrification  ->  "petrification" exact word (Google)
+#1004 philanthropist  ->  "philanthropist" exact word (Google)
+#1005 Philippine mahogany  ->  "Philippine mahogany" exact word (Google)
+#1011 piccoloist  ->  "piccoloist" exact word (howtopronounce, user-submitted)
+#1012 pilferage  ->  "pilferage" exact word (Google)
+#1016 plagiarist  ->  "plagiarist" exact word (Google) [give it a listen: speech check heard "Clagerist."]
+#1023 poetic justice  ->  "poetic justice" exact word (Google)
+#1024 point-blank  ->  "point-blank" exact word (Google)
+#1026 politicking  ->  "politicking" exact word (Google)
+#1037 posthypnotic suggestion  ->  "posthypnotic suggestion" full term (howtopronounce); AHD clip only says "posthypnotic"
+#1053 prima ballerina  ->  "prima ballerina" full term (Google); AHD clip only says "prima"
+#1055 primrose path  ->  "primrose path" exact word (Google)
+#1056 privatization  ->  "privatization" exact word (Google)
+#1059 profligacy  ->  "profligacy" exact word (Google)
+#1061 pronounceable  ->  different form: clip says "pronounce" (AHD)
+#1067 proselytizer  ->  "proselytizer" exact word (howtopronounce, user-submitted)
+#1084 Pyrrhic victory  ->  "Pyrrhic victory" exact word (Wiktionary)
+#1098 quotability  ->  "quotability" exact word (howtopronounce, user-submitted)
+#1106 ratcheting  ->  "ratcheting" exact word (Google)
+#1107 ratification  ->  "ratification" exact word (Google)
+#1111 realignment  ->  "realignment" exact word (Google)
+#1119 redacted  ->  "redacted" exact word (Google)
+#1123 reentry vehicle  ->  NO AUDIO
+#1134 reparations  ->  "reparations" exact word (Google)
+#1149 reverse osmosis  ->  "reverse osmosis" exact word (Google)
+#1150 Reye's syndrome  ->  "Reye's syndrome" full term (howtopronounce); AHD clip only says "Reye's"
+#1152 rhetorical question  ->  "rhetorical question" exact word (Google)
+#1156 Riggs' disease  ->  clip only says "Riggs'" (AHD); howtopronounce clip rejected, clip says "Riggs backslash disease"
+#1158 rigorously  ->  "rigorously" exact word (Google)
+#1163 roisterous  ->  "roisterous" exact word (howtopronounce, user-submitted) [give it a listen: speech check heard "Roysteris"]
+#1167 rose of Jericho  ->  "rose of Jericho" exact word (Google)
+#1168 Rosetta stone  ->  "Rosetta stone" full term (Google); AHD clip only says "Rosetta"
+#1178 saber-toothed tiger  ->  "saber-toothed tiger" exact word (howtopronounce, user-submitted)
+#1183 Saint Croix  ->  "Saint Croix" full term (Google); AHD clip only says "Croix"
+#1192 sambaed  ->  "sambaed" exact word (howtopronounce, user-submitted) [give it a listen: speech check heard "some but"]
+#1197 sapience  ->  "sapience" exact word (Google)
+#1203 Saudi Arabia  ->  "Saudi Arabia" exact word (Google)
+#1211 schmaltzy  ->  "schmaltzy" exact word (Google)
+#1212 schussing  ->  "schussing" exact word (howtopronounce, user-submitted)
+#1219 secular humanism  ->  "secular humanism" exact word (Google)
+#1223 self-effacing  ->  NO AUDIO
+#1224 self-indulgence  ->  "self-indulgence" exact word (howtopronounce)
+#1232 sequined  ->  "sequined" exact word (Google)
+#1240 shea butter  ->  "shea butter" full term (Google); AHD clip only says "shea"
+#1243 shuttle diplomacy  ->  "shuttle diplomacy" exact word (Google)
+#1245 Sierra Leone  ->  "Sierra Leone" exact word (Google)
+#1249 Simon Legree  ->  "Simon Legree" full term (Google); AHD clip only says "Legree"
+#1262 sojourned  ->  "sojourned" exact word (Google)
+#1267 somnambulated  ->  "somnambulated" exact word (howtopronounce, user-submitted)
+#1269 sophistical  ->  "sophistical" exact word (howtopronounce, user-submitted)
+#1272 space sickness  ->  NO AUDIO
+#1275 spear-carrier  ->  "spear-carrier" exact word (Google)
+#1283 standardization  ->  "standardization" exact word (Google)
+#1287 stem cell  ->  "stem cell" exact word (Google)
+#1292 stogy  ->  shared clip for "stogie" / "stogy", same pronunciation (AHD)
+#1303 submissiveness  ->  "submissiveness" exact word (Google)
+#1320 syndicate  ->  "syndicate" main pronunciation only (AHD); dictionary gives a different one for: v. (-kāt′)
+#1331 targetable  ->  "targetable" exact word (Google)
+#1340 tentacles  ->  "tentacles" exact word (Google)
+#1353 Third World  ->  "Third World" exact word (Google)
+#1361 toiletries  ->  "toiletries" exact word (Google)
+#1363 tongue-tied  ->  "tongue-tied" exact word (Google)
+#1374 trigger-happy  ->  "trigger-happy" exact word (howtopronounce, user-submitted)
+#1408 up-to-the-minute  ->  "up-to-the-minute" exact word (howtopronounce, user-submitted)
+#1409 urban forest  ->  "urban forest" exact word (Google)
+#1423 veldt  ->  shared clip for "veld" / "veldt", same pronunciation (AHD)
+#1431 vernier caliper  ->  "vernier caliper" exact word (Google)
+#1437 vicious circle  ->  "vicious circle" exact word (Google)
+#1441 vindictiveness  ->  "vindictiveness" exact word (Google)
+#1442 Virginia reel  ->  "Virginia reel" exact word (Google)
+#1445 visual acuity  ->  "visual acuity" exact word (Google)
+#1453 wait-a-bit  ->  "wait-a-bit" exact word (Wiktionary)
+#1455 Wankel engine  ->  "Wankel engine" full term (Google); AHD clip only says "Wankel"
+#1456 wantonness  ->  "wantonness" exact word (Wiktionary)
+#1458 wattle and daub  ->  "wattle and daub" exact word (Google)
+#1459 weather-beaten  ->  "weather-beaten" exact word (howtopronounce, user-submitted)
+#1460 well-intentioned  ->  "well-intentioned" exact word (Google)
+#1461 whey-face  ->  "whey-face" exact word (howtopronounce)
+#1464 wind-chill factor  ->  "windchill factor" spelled as one word, same pronunciation (Google)
+#1466 woefulness  ->  "woefulness" exact word (howtopronounce, user-submitted)
+#1468 work-study  ->  "work-study" exact word (howtopronounce, user-submitted)
+#1471 wretchedly  ->  "wretchedly" exact word (howtopronounce, user-submitted) [give it a listen: speech check heard "Regidly."]
+#1472 wryness  ->  "wryness" exact word (Google) [give it a listen: speech check heard "Rhinus."]
+#1476 Xaverian Brother  ->  "Xaverian Brother" full term (howtopronounce); AHD clip only says "Xaverian" [give it a listen: speech check heard "Civilian brother"]
+#1495 zero gravity  ->  "zero gravity" exact word (Google)
+#1497 Zipf's law  ->  clip only says "Zipf's" (AHD); no full-term clip found

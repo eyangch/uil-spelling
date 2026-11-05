@@ -19,8 +19,8 @@ function select(cell) {
     // now add pronunciations
     txt = "<ul>\n";
     for (var i = parseInt(clicked)-1; i < 1500; i += 20) {
-        txt += "\t<li>" + w2024[i][0].split("|")[0];
-        txt += "<a onclick=\"word_url=w2024[" + i + "][1];audio();\">▶️</button></li>\n";
+        txt += "\t<li>" + w2027[i][0].split("|")[0];
+        txt += w2027[i][1] ? "<a onclick=\"word_url=w2027[" + i + "][1];audio();\">▶️</button></li>\n" : " (no audio)</li>\n";
     }
     txt += "</ul>\n";
 
@@ -29,7 +29,7 @@ function select(cell) {
 }
 
 
-var w2024_l = w2024.length;
+var w2027_l = w2027.length;
 var word_url = "";
 var word = "";
 var word_idx;
@@ -46,10 +46,18 @@ function audio(){
 
 function test(){
     audio("https://www.ahdictionary.com/application/resources/wavs/T0070900.wav");
-    console.log(w2024[0])
+    console.log(w2027[0])
+}
+
+// words with no audio clip can't be dictated, so they're left out of practice
+function set_size(){
+    return w2027.filter((w, i) => i % 20 == clicked - 1 && w[1]).length;
 }
 
 function chk_word(){
+    if(!w2027[word_idx][1]){
+        return false;
+    }
     for(let i = 0; i < used_idx.length; i++){
         if(word_idx == used_idx[i]){
             return false;
@@ -73,7 +81,7 @@ function start(){
         elem[i].style.display = "block";
     }
 
-    if (used_idx.length == 75) {
+    if (used_idx.length == set_size()) {
         var hide = document.getElementsByClassName("toggle2");
         var show = document.getElementsByClassName("toggle3");
 
@@ -85,7 +93,7 @@ function start(){
         }
 
         document.getElementById("msg-set").innerHTML += clicked.toString() + "!";
-        document.getElementById("msg-right").innerHTML += correct.toString() + " of them right!"
+        document.getElementById("msg-right").innerHTML = "Out of the " + set_size() + " words, you got " + correct.toString() + " of them right!"
 
         // ok now add list of wrong words
         var miss_txt = "";
@@ -103,8 +111,8 @@ function start(){
         word_idx = Math.floor(Math.random() * 75) * 20 + parseInt(clicked) - 1;
     } while (!chk_word());
     used_idx.push(word_idx);
-    word = w2024[word_idx][0];
-    word_url = w2024[word_idx][1];
+    word = w2027[word_idx][0];
+    word_url = w2027[word_idx][1];
     audio();
 }
 
