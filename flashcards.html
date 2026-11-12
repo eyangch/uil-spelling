@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="vocab.js?v=4"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css?v=4">
+        <title>Vocabulary Flashcards</title>
+    </head>
+
+    <body>
+        <header>
+            <nav><a href="index.html">Spelling</a><a href="flashcards.html" aria-current="page">Vocabulary</a></nav>
+            <h1>Vocabulary Flashcards</h1>
+            <p class="sub">The 350 vocabulary words (marked • on the Word Power list), with definitions from The American Heritage Dictionary</p>
+        </header>
+
+        <main>
+            <div class="deck">
+                <div class="controls">
+                    <select id="set" aria-label="Words to study"></select>
+                    <button id="shuffle">Shuffle</button>
+                    <span id="count"></span>
+                </div>
+
+                <div class="card" id="card" role="button" tabindex="0" aria-live="polite"></div>
+
+                <div class="nav-buttons">
+                    <button id="prev">Previous</button>
+                    <button class="primary" id="flip">Flip</button>
+                    <button id="next">Next</button>
+                </div>
+                <p class="hint">Click the card or press Space to flip. Use the arrow keys to move between cards.</p>
+            </div>
+        </main>
+        <script src="flashcards.js?v=4"></script>
+    </body>
+</html>

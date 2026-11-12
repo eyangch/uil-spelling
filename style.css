@@ -170,3 +170,82 @@ label.hint { display: block; }
     .log { border-left: 0; padding-left: 0; border-top: 1px solid var(--rule); padding-top: 24px; }
     #text_input { font-size: 1.7rem; }
 }
+
+/* nav */
+nav {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 14px;
+    font-size: 0.95rem;
+}
+nav a { color: var(--muted); text-decoration: none; }
+nav a:hover { color: var(--ink); }
+nav a[aria-current="page"] { color: var(--ink); font-weight: 600; }
+
+/* flashcards */
+.deck { max-width: 640px; }
+.controls {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.controls select {
+    font: inherit;
+    color: var(--ink);
+    background: #fff;
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+    padding: 8px 10px;
+}
+.controls button { padding: 8px 14px; }
+#count {
+    margin-left: auto;
+    white-space: nowrap;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+}
+.card {
+    display: block;
+    width: 100%;
+    min-height: 340px;
+    padding: 32px 36px;
+    text-align: left;
+    background: #fff;
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+    cursor: pointer;
+}
+.card:hover { border-color: var(--muted); }
+.card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.card .front {
+    min-height: 276px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card .word { font-size: 2.4rem; font-weight: 600; line-height: 1.2; }
+.card .qual { color: var(--muted); margin-top: 6px; }
+.card .back h3 { margin: 18px 0 0; }
+.card .back h3:first-child { margin-top: 0; }
+.card .back > .pos:first-child { margin-top: 0; }
+.card .pos { font-style: italic; color: var(--muted); margin: 12px 0 2px; }
+.card ol { margin: 0; padding-left: 22px; }
+.card ol.single { list-style: none; padding-left: 0; }
+.card li { margin-bottom: 6px; }
+.card .note { color: var(--muted); font-size: 0.95rem; margin: 10px 0 0; }
+.nav-buttons {
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+}
+.nav-buttons button { padding: 10px 18px; }
+.nav-buttons .primary { flex: 1; }
+.deck .hint { margin-top: 14px; }
+
+@media (max-width: 760px) {
+    .card { padding: 24px 20px; }
+    .card .word { font-size: 1.9rem; }
+}

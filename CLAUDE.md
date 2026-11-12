@@ -21,7 +21,11 @@ python3 -m http.server
 
 **Sets depend on array position.** The 1500 alphabetized words are divided into 20 sets of 75 by taking every 20th word: set `n` uses indices `n-1, n-1+20, ...`. Inserting or removing an entry moves words between sets, so fix entries in place and keep the length at 1500. Words with no clip stay in the array but are skipped in practice, so some sets have fewer than 75 words.
 
-**Views.** The three screens are toggled by setting `display` on the elements of each CSS class: `toggle1` (set picker), `toggle2` (practice), and `toggle3` (results). Nothing resets session state, so the results page tells the user to reload to practice again.
+**Views.** The three screens are toggled by setting `display` on the elements of each CSS class: `toggle1` (set picker), `toggle2` (practice), and `toggle3` (results). Nothing resets session state, so the results page's button reloads the page to practice again.
+
+**Flashcards.** `flashcards.html` loads `vocab.js` (the global `vocab2027`, one card per vocabulary word) and `flashcards.js`. A card's `front` joins accepted spellings with " or ", `notes` show on the front, and `blocks` hold the definitions by entry and part of speech. Flashcard sets use the same every-20th-word rule, by Word Power number.
+
+**Asset versions.** Pages link `style.css`, `script.js`, `flashcards.js`, and `vocab.js` with a `?v=N` query so browsers fetch new copies after a deploy. Bump `N` on every page when any of them changes.
 
 ## Word and audio data
 
@@ -34,3 +38,5 @@ Two kinds of wrong clip look fine to a simple scrape of ahdictionary.com:
 - **Partial clips.** On multi-word headwords, the clip may voice only part of the term, so `Homo sapiens` says only "sapiens". The printed pronunciation shows which words are voiced.
 
 The 2027 pipeline and saved AHD pages are in `.cache/` (gitignored, local only). The pages also contain definitions, origins, and other word forms for future features.
+
+**`vocab.js`** is generated from the saved pages by `.cache/pipeline/extract_vocab.py` and `build_vocab.py`. Most definitions are AHD's text with quotations and cross-references removed. The 21 words AHD only lists as a form of another entry (like `wretchedly` under `wretched`) have definitions written for the listed form in `build_vocab.py`.
