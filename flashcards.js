@@ -58,6 +58,7 @@ function show(back) {
                 d.senses.forEach(s => html += '<li>' + esc(s) + '</li>');
                 html += '</ol>';
             });
+            if (b.ety) html += '<p class="ety"><span class="pos">Origin</span> ' + esc(b.ety) + '</p>';
         });
         html += '</div>';
     }
