@@ -33,4 +33,4 @@ Two kinds of wrong clip look fine to a simple scrape of ahdictionary.com:
 - **Other forms.** Searching a form without its own entry silently returns the base word's page, so `decoyed` gets `decoy`. Compare the entry's headword to the word.
 - **Partial clips.** On multi-word headwords, the clip may voice only part of the term, so `Homo sapiens` says only "sapiens". The printed pronunciation shows which words are voiced.
 
-`get_ids.py`, `fix_audios.py`, and `fix_omit_prog.py` are from the 2024 season. They don't handle either case, and running `get_ids.py` would create a stray `2024.js`. The 2027 pipeline and saved AHD pages are in `.cache/` (gitignored, local only). The pages also contain definitions, origins, and other word forms for future features.
+The 2027 pipeline and saved AHD pages are in `.cache/` (gitignored, local only). The pages also contain definitions, origins, and other word forms for future features.
