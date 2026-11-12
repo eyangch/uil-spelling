@@ -91,11 +91,11 @@ Every other word uses the AHD clip attached to that exact headword. Numbers are 
 #526  gullibility  ->  "gullibility" exact word (Google)
 #530  gyrostatic  ->  "gyrostatic" exact word (howtopronounce, user-submitted)
 #539  hand-to-mouth  ->  "hand-to-mouth" exact word (Wiktionary, Australian accent)
-#540  harm's way  ->  NO AUDIO
+#540  harm's way  ->  "harm's way" exact word (Dictionary.com, computer voice)
 #544  haute école  ->  clip only says "école" (AHD); howtopronounce clip rejected, heard "Foody call"
 #546  heinously  ->  "heinously" exact word (howtopronounce, user-submitted)
 #566  Homo sapiens  ->  "Homo sapiens" full term (Google); AHD clip only says "sapiens"
-#571  hot-dogging  ->  NO AUDIO
+#571  hot-dogging  ->  "hotdogging" exact word (Dictionary.com, computer voice)
 #572  hubristic  ->  "hubristic" exact word (Google)
 #573  humanitarianism  ->  "humanitarianism" exact word (Google)
 #574  hunter-gatherer  ->  "hunter-gatherer" exact word (howtopronounce, user-submitted)
@@ -155,7 +155,7 @@ Every other word uses the AHD clip attached to that exact headword. Numbers are 
 #962  Parkinson's disease  ->  "Parkinson's disease" full term (Google); AHD clip only says "Parkinson's"
 #965  Parsons table  ->  "Parsons table" full term (Google); AHD clip only says "Parsons"
 #976  paunchiness  ->  "paunchiness" exact word (Google)
-#982  Peking man  ->  NO AUDIO
+#982  Peking man  ->  "Peking man" full term (Dictionary.com, computer voice)
 #984  peninsular  ->  "peninsular" exact word (Google)
 #996  Peruvian  ->  "Peruvian" exact word (Google)
 #999  petrification  ->  "petrification" exact word (Google)
@@ -180,7 +180,7 @@ Every other word uses the AHD clip attached to that exact headword. Numbers are 
 #1107 ratification  ->  "ratification" exact word (Google)
 #1111 realignment  ->  "realignment" exact word (Google)
 #1119 redacted  ->  "redacted" exact word (Google)
-#1123 reentry vehicle  ->  NO AUDIO
+#1123 reentry vehicle  ->  "re-entry vehicle" full term (Cambridge, US)
 #1134 reparations  ->  "reparations" exact word (Google)
 #1149 reverse osmosis  ->  "reverse osmosis" exact word (Google)
 #1150 Reye's syndrome  ->  "Reye's syndrome" full term (howtopronounce); AHD clip only says "Reye's"
@@ -198,7 +198,7 @@ Every other word uses the AHD clip attached to that exact headword. Numbers are 
 #1211 schmaltzy  ->  "schmaltzy" exact word (Google)
 #1212 schussing  ->  "schussing" exact word (howtopronounce, user-submitted)
 #1219 secular humanism  ->  "secular humanism" exact word (Google)
-#1223 self-effacing  ->  NO AUDIO
+#1223 self-effacing  ->  "self-effacing" exact word (Cambridge, US)
 #1224 self-indulgence  ->  "self-indulgence" exact word (howtopronounce)
 #1232 sequined  ->  "sequined" exact word (Google)
 #1240 shea butter  ->  "shea butter" full term (Google); AHD clip only says "shea"
@@ -208,7 +208,7 @@ Every other word uses the AHD clip attached to that exact headword. Numbers are 
 #1262 sojourned  ->  "sojourned" exact word (Google)
 #1267 somnambulated  ->  "somnambulated" exact word (howtopronounce, user-submitted)
 #1269 sophistical  ->  "sophistical" exact word (howtopronounce, user-submitted)
-#1272 space sickness  ->  NO AUDIO
+#1272 space sickness  ->  "space sickness" full term (Dictionary.com, computer voice)
 #1275 spear-carrier  ->  "spear-carrier" exact word (Google)
 #1283 standardization  ->  "standardization" exact word (Google)
 #1287 stem cell  ->  "stem cell" exact word (Google)
