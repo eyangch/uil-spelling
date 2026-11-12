@@ -127,10 +127,10 @@ function submit(){
 
     if(b == true){
         correct++;
-        $("#correct").append("<br><b>" + word + "</b>");
+        $("#correct").append("<br><b>" + arr.join(" or ") + "</b>");
     }else{
-        $("#incorrect").append("<br><b>" + word + "</b> (You entered: " + typed + ")");
-        missed.push(word);
+        $("#incorrect").append("<br><b>" + arr.join(" or ") + "</b> (You entered: " + typed + ")");
+        missed.push(arr.join(" or "));
     }
     total++;
     let percent = Math.round(correct / total * 100);
