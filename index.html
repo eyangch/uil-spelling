@@ -1,156 +1,91 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"></script>
         <script src="2027.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <title>2027 UIL Spelling Trainer</title>
     </head>
 
     <body>
-        <header style="text-align:center;"> <h1>2027 UIL Spelling Trainer</h1> </header>
-        <br>
+        <header>
+            <h1>UIL Spelling Trainer</h1>
+            <p class="sub">Created by Eric Yang and Warith Rahman, modeled with the 2026-2027 Word Power</p>
+        </header>
 
-        <div class="container">
-            <div class="row">
-                <h2>Welcome to the UIL Spelling Trainer, brought to you by Eric Yang (and Warith Rahman)!!<h2>
-                <h4>Select the set number you want to practice, then click the button below to get started!</h4>
-                <section class="col-md-6 col-xl-6">
-                    <div class="toggle1">
-
-                        <table>
-                            <tr>
-                                <td onclick="select(this)">1</td>
-                                <td onclick="select(this)">2</td>
-                                <td onclick="select(this)">3</td>
-                                <td onclick="select(this)">4</td>
-                                <td onclick="select(this)">5</td>
-                            </tr>
-                            <tr>
-                                <td onclick="select(this)">6</td>
-                                <td onclick="select(this)">7</td>
-                                <td onclick="select(this)">8</td>
-                                <td onclick="select(this)">9</td>
-                                <td onclick="select(this)">10</td>
-                            </tr>
-                            <tr>
-                                <td onclick="select(this)">11</td>
-                                <td onclick="select(this)">12</td>
-                                <td onclick="select(this)">13</td>
-                                <td onclick="select(this)">14</td>
-                                <td onclick="select(this)">15</td>
-                            </tr>
-                            <tr>
-                                <td onclick="select(this)">16</td>
-                                <td onclick="select(this)">17</td>
-                                <td onclick="select(this)">18</td>
-                                <td onclick="select(this)">19</td>
-                                <td onclick="select(this)">20</td>
-                            </tr>
-                        </table>
-
-                        <button onclick="start();">Start Practicing!</button>
+        <main>
+            <!-- set picker -->
+            <section class="toggle1">
+              <div class="picker">
+                <div>
+                    <h2>Pick a set</h2>
+                    <p class="hint">Each set has 75 words. Click a number to see its words, then start.</p>
+                    <div class="sets">
+                        <button class="set" onclick="select(this)">1</button><button class="set" onclick="select(this)">2</button><button class="set" onclick="select(this)">3</button><button class="set" onclick="select(this)">4</button><button class="set" onclick="select(this)">5</button>
+                        <button class="set" onclick="select(this)">6</button><button class="set" onclick="select(this)">7</button><button class="set" onclick="select(this)">8</button><button class="set" onclick="select(this)">9</button><button class="set" onclick="select(this)">10</button>
+                        <button class="set" onclick="select(this)">11</button><button class="set" onclick="select(this)">12</button><button class="set" onclick="select(this)">13</button><button class="set" onclick="select(this)">14</button><button class="set" onclick="select(this)">15</button>
+                        <button class="set" onclick="select(this)">16</button><button class="set" onclick="select(this)">17</button><button class="set" onclick="select(this)">18</button><button class="set" onclick="select(this)">19</button><button class="set" onclick="select(this)">20</button>
                     </div>
+                    <button class="primary" onclick="start();">Start set <span id="set-label">1</span></button>
+                </div>
+                <div class="wordlist" id="pron">
+                    <p class="hint">Click a set to see its words. Click ▶&#xFE0E; to hear one.</p>
+                </div>
+              </div>
+            </section>
 
-                    <div class="toggle2" style="display:none;">
-                        <!-- used to be <div id="toggle2" hidden> -->
-                        <button onclick="audio();">Listen to the Pronunciation</button>
-                        <br><br>
-                        Spell the word here: <input id="text_input" type="text" spellcheck="false">
-                        <button onclick="submit();">Submit</button>
-                        <h3 id="stats">0 out of 0 correct</h3>
-                        <br>
-
-                        <button class="insert" value="À">À</button>
-                        <button class="insert" value="È">È</button>
-                        <button class="insert" value="Ì">Ì</button>
-                        <button class="insert" value="Ò">Ò</button>
-                        <button class="insert" value="Ù">Ù</button>
-                        <br>
-
-                        <button class="insert" value="à">à</button>
-                        <button class="insert" value="è">è</button>
-                        <button class="insert" value="ì">ì</button>
-                        <button class="insert" value="ò">ò</button>
-                        <button class="insert" value="ù">ù</button>
-                        <br><br>
-
-                        <button class="insert" value="Á">Á</button>
-                        <button class="insert" value="É">É</button>
-                        <button class="insert" value="Í">Í</button>
-                        <button class="insert" value="Ó">Ó</button>
-                        <button class="insert" value="Ú">Ú</button>
-                        <br>
-
-                        <button class="insert" value="á">á</button>
-                        <button class="insert" value="é">é</button>
-                        <button class="insert" value="í">í</button>
-                        <button class="insert" value="ó">ó</button>
-                        <button class="insert" value="ú">ú</button>
-                        <br><br>
-
-                        <button class="insert" value="â">â</button>
-                        <button class="insert" value="ê">ê</button>
-                        <button class="insert" value="î">î</button>
-                        <button class="insert" value="ô">ô</button>
-                        <button class="insert" value="û">û</button>
-                        <br><br>
-
-                        <button class="insert" value="ä">ä</button>
-                        <button class="insert" value="ë">ë</button>
-                        <button class="insert" value="ï">ï</button>
-                        <button class="insert" value="ö">ö</button>
-                        <button class="insert" value="ü">ü</button>
-                        <br><br>
-
-                        <button class="insert" value="ñ">ñ</button>
-                        <button class="insert" value="ç">ç</button>
+            <!-- practice -->
+            <section class="toggle2" style="display:none;">
+              <div class="practice">
+                <div class="drill">
+                    <button class="listen" onclick="audio();">▶&#xFE0E; Play again</button>
+                    <label for="text_input" class="hint">Type the word, then press Enter</label>
+                    <div class="answer">
+                        <input id="text_input" type="text" spellcheck="false" autocomplete="off" autocapitalize="off" autocorrect="off">
+                        <button class="primary" onclick="submit();">Submit</button>
                     </div>
-                </section>
+                    <p id="stats">0 out of 0 correct</p>
 
-                <section class="col-md-3 col-xl-3">
-                    <div class="toggle1" id="pron">
-                        <h5 style="text-align:center;" id="pron">When you click a set number, a list of the words with their pronunciations will appear here!!</h5>
+                    <div class="keys">
+                        <button class="insert" value="à">à</button><button class="insert" value="è">è</button><button class="insert" value="ì">ì</button><button class="insert" value="ò">ò</button><button class="insert" value="ù">ù</button>
+                        <button class="insert" value="á">á</button><button class="insert" value="é">é</button><button class="insert" value="í">í</button><button class="insert" value="ó">ó</button><button class="insert" value="ú">ú</button>
+                        <button class="insert" value="â">â</button><button class="insert" value="ê">ê</button><button class="insert" value="î">î</button><button class="insert" value="ô">ô</button><button class="insert" value="û">û</button>
+                        <button class="insert" value="ä">ä</button><button class="insert" value="ë">ë</button><button class="insert" value="ï">ï</button><button class="insert" value="ö">ö</button><button class="insert" value="ü">ü</button>
+                        <button class="insert" value="ñ">ñ</button><button class="insert" value="ç">ç</button>
                     </div>
-
-                    <div class="toggle2" style="display:none;">
-                        <!-- used to be <div id="toggle2" hidden> -->
-                        <div style="display:table;width:100%">
-                            <div style="float:left;width:100%;color:green">
-                                <h3>Correct:</h3>
-                                <h4 id="correct"></h4>
-                            </div>
-                        </div>
+                    <div class="keys">
+                        <button class="insert" value="À">À</button><button class="insert" value="È">È</button><button class="insert" value="Ì">Ì</button><button class="insert" value="Ò">Ò</button><button class="insert" value="Ù">Ù</button>
+                        <button class="insert" value="Á">Á</button><button class="insert" value="É">É</button><button class="insert" value="Í">Í</button><button class="insert" value="Ó">Ó</button><button class="insert" value="Ú">Ú</button>
                     </div>
-                </section>
-
-                <section class="col-md-3 col-xl-3">
-                    <div class="toggle2" style="display:none;">
-                        <!-- used to be <div id="toggle2" hidden> -->
-                        <div style="display:table;width:100%">
-                            <div style="float:left;width:100%;color:red">
-                                <h3>Incorrect:</h3>
-                                <p id="incorrect"></p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <div class="toggle3" style="display:none;">
-                    <h2 id="msg-set">Congrats on finishing Set <h2>
-                    <h4 id="msg-right">Out of the 75 words, you got </h4>
-                    <h4>To practice some more, reload the page</h4>
-                    <h4 style="color:red;">Missed Words:</h4>
-                    <ul id="end_wrong">
-
-                    </ul>
                 </div>
 
-            </div>
-        </div>
+                <div class="log">
+                    <div>
+                        <h3 class="good">Correct</h3>
+                        <p id="correct"></p>
+                    </div>
+                    <div>
+                        <h3 class="bad">Incorrect</h3>
+                        <p id="incorrect"></p>
+                    </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- results -->
+            <section class="toggle3 results" style="display:none;">
+                <h2 id="msg-set">Congrats on finishing Set </h2>
+                <p id="msg-right">Out of the 75 words, you got </p>
+                <h3 class="bad">Missed words</h3>
+                <ul id="end_wrong"></ul>
+                <button class="primary" onclick="location.reload();">Practice another set</button>
+            </section>
+        </main>
         <script src="script.js"></script>
     </body>
 </html>

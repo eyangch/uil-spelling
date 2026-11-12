@@ -8,19 +8,17 @@ var missed = [];
 
 var clicked = 1;
 function select(cell) {
-    let cells = document.querySelectorAll("td");
-    for (let i = 0; i < cells.length; ++i) {
-        cells[i].style.backgroundColor = "#f9f9f9";
-    }
-    cell.style.backgroundColor = "#008aff";
+    document.querySelectorAll(".set").forEach(c => c.classList.remove("on"));
+    cell.classList.add("on");
 
     clicked = cell.innerHTML;
+    document.getElementById("set-label").textContent = clicked;
 
     // now add pronunciations
     txt = "<ul>\n";
     for (var i = parseInt(clicked)-1; i < 1500; i += 20) {
         txt += "\t<li>" + w2027[i][0].split("|")[0];
-        txt += w2027[i][1] ? "<a onclick=\"word_url=w2027[" + i + "][1];audio();\">▶️</button></li>\n" : " (no audio)</li>\n";
+        txt += w2027[i][1] ? "<a onclick=\"word_url=w2027[" + i + "][1];audio();\" title=\"Play\">▶&#xFE0E;</a></li>\n" : " (no audio)</li>\n";
     }
     txt += "</ul>\n";
 
@@ -148,3 +146,5 @@ buttons.forEach( function(button) {
         field.focus();
     })
 });
+
+select(document.querySelector(".set"));

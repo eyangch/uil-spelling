@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-Static website for practicing UIL Spelling, based on the [2026-2027 Word Power](https://www.uiltexas.org/files/academics/WordPower_2026-2027.pdf) list and hosted on GitHub Pages. There is no build step, package manager, linter, or test suite. jQuery and Bootstrap load from CDNs. The contest's authority for spellings and forms is *The American Heritage Dictionary of the English Language*, Fifth Edition: Fiftieth Anniversary (2018 Printing). ahdictionary.com is the working source, but UIL doesn't accept online dictionaries as authoritative. `AHD.pdf` is a different book (the 2011 *Essential* AHD), so it's only useful for spot checks.
+Static website for practicing UIL Spelling, based on the [2026-2027 Word Power](https://www.uiltexas.org/files/academics/WordPower_2026-2027.pdf) list and hosted on GitHub Pages. There is no build step, package manager, linter, or test suite. jQuery and the IBM Plex Sans font load from CDNs. The contest's authority for spellings and forms is *The American Heritage Dictionary of the English Language*, Fifth Edition: Fiftieth Anniversary (2018 Printing). ahdictionary.com is the working source, but UIL doesn't accept online dictionaries as authoritative. `AHD.pdf` is a different book (the 2011 *Essential* AHD), so it's only useful for spot checks.
 
 ## Commands
 
