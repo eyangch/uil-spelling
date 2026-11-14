@@ -8,7 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css?v=6">
+        <link rel="stylesheet" href="style.css?v=7">
         <title>2027 UIL Spelling Trainer</title>
     </head>
 
@@ -25,12 +25,13 @@
               <div class="picker">
                 <div>
                     <h2>Pick a set</h2>
-                    <p class="hint">Each set has 75 words. Click a number to see its words, then start.</p>
+                    <p class="hint">Each set has 60 words. Click a number to see its words, then start.</p>
                     <div class="sets">
                         <button class="set" onclick="select(this)">1</button><button class="set" onclick="select(this)">2</button><button class="set" onclick="select(this)">3</button><button class="set" onclick="select(this)">4</button><button class="set" onclick="select(this)">5</button>
                         <button class="set" onclick="select(this)">6</button><button class="set" onclick="select(this)">7</button><button class="set" onclick="select(this)">8</button><button class="set" onclick="select(this)">9</button><button class="set" onclick="select(this)">10</button>
                         <button class="set" onclick="select(this)">11</button><button class="set" onclick="select(this)">12</button><button class="set" onclick="select(this)">13</button><button class="set" onclick="select(this)">14</button><button class="set" onclick="select(this)">15</button>
                         <button class="set" onclick="select(this)">16</button><button class="set" onclick="select(this)">17</button><button class="set" onclick="select(this)">18</button><button class="set" onclick="select(this)">19</button><button class="set" onclick="select(this)">20</button>
+                        <button class="set" onclick="select(this)">21</button><button class="set" onclick="select(this)">22</button><button class="set" onclick="select(this)">23</button><button class="set" onclick="select(this)">24</button><button class="set" onclick="select(this)">25</button>
                     </div>
                     <button class="primary" onclick="start();">Start set <span id="set-label">1</span></button>
                 </div>
@@ -81,12 +82,12 @@
             <!-- results -->
             <section class="toggle3 results" style="display:none;">
                 <h2 id="msg-set">Congrats on finishing Set </h2>
-                <p id="msg-right">Out of the 75 words, you got </p>
+                <p id="msg-right">Out of the 60 words, you got </p>
                 <h3 class="bad">Missed words</h3>
                 <ul id="end_wrong"></ul>
                 <button class="primary" onclick="location.reload();">Practice another set</button>
             </section>
         </main>
-        <script src="script.js?v=6"></script>
+        <script src="script.js?v=7"></script>
     </body>
 </html>

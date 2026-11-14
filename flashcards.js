@@ -5,9 +5,9 @@ var flipped = false;
 var setSelect = document.getElementById("set");
 var card = document.getElementById("card");
 
-// sets follow the spelling trainer: set n is every 20th word starting at word n
+// sets follow the spelling trainer: set n is every 25th word starting at word n
 function inSet(c, n) {
-    return (c.n - 1) % 20 == n - 1;
+    return (c.n - 1) % 25 == n - 1;
 }
 
 function esc(s) {
@@ -16,7 +16,7 @@ function esc(s) {
 
 function fillSets() {
     let opts = '<option value="0">All ' + vocab2027.length + ' words</option>';
-    for (let n = 1; n <= 20; n++) {
+    for (let n = 1; n <= 25; n++) {
         let k = vocab2027.filter(c => inSet(c, n)).length;
         opts += '<option value="' + n + '">Set ' + n + ' (' + k + ' words)</option>';
     }

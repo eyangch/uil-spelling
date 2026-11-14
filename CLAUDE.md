@@ -19,11 +19,11 @@ python3 -m http.server
 
 **Word data format.** Each `w2027` entry is `[spelling, audioPath]`, where `audioPath` is `audio/NNNN.mp3` (the Word Power number) or `""` if there is no clip. `spelling` may hold pipe-separated accepted variants, such as `"abridgment|abridgement"`. An answer is correct if it exactly matches any variant, including case. UIL only credits the form matching the definition read aloud, so this check is more lenient than the contest.
 
-**Sets depend on array position.** The 1500 alphabetized words are divided into 20 sets of 75 by taking every 20th word: set `n` uses indices `n-1, n-1+20, ...`. Inserting or removing an entry moves words between sets, so fix entries in place and keep the length at 1500. Words with no clip stay in the array but are skipped in practice, so some sets have fewer than 75 words.
+**Sets depend on array position.** The 1500 alphabetized words are divided into 25 sets of 60 by taking every 25th word: set `n` uses indices `n-1, n-1+25, ...`. Inserting or removing an entry moves words between sets, so fix entries in place and keep the length at 1500. Words with no clip stay in the array but are skipped in practice, so some sets have fewer than 60 words.
 
 **Views.** The three screens are toggled by setting `display` on the elements of each CSS class: `toggle1` (set picker), `toggle2` (practice), and `toggle3` (results). Nothing resets session state, so the results page's button reloads the page to practice again.
 
-**Flashcards.** `flashcards.html` loads `vocab.js` (the global `vocab2027`, one card per vocabulary word) and `flashcards.js`. A card's `front` joins accepted spellings with " or ", `notes` show on the front, and `blocks` hold the definitions by entry and part of speech. Flashcard sets use the same every-20th-word rule, by Word Power number.
+**Flashcards.** `flashcards.html` loads `vocab.js` (the global `vocab2027`, one card per vocabulary word) and `flashcards.js`. A card's `front` joins accepted spellings with " or ", `notes` show on the front, and `blocks` hold the definitions by entry and part of speech. Flashcard sets use the same every-25th-word rule, by Word Power number.
 
 **Asset versions.** Pages link `style.css`, `script.js`, `flashcards.js`, and `vocab.js` with a `?v=N` query so browsers fetch new copies after a deploy. Bump `N` on every page when any of them changes.
 

@@ -16,7 +16,7 @@ function select(cell) {
 
     // now add pronunciations
     txt = "<ul>\n";
-    for (var i = parseInt(clicked)-1; i < 1500; i += 20) {
+    for (var i = parseInt(clicked)-1; i < 1500; i += 25) {
         txt += "\t<li>" + w2027[i][0].split("|")[0];
         txt += w2027[i][1] ? "<a onclick=\"word_url=w2027[" + i + "][1];audio();\" title=\"Play\">▶&#xFE0E;</a></li>\n" : " (no audio)</li>\n";
     }
@@ -49,7 +49,7 @@ function test(){
 
 // words with no audio clip can't be dictated, so they're left out of practice
 function set_size(){
-    return w2027.filter((w, i) => i % 20 == clicked - 1 && w[1]).length;
+    return w2027.filter((w, i) => i % 25 == clicked - 1 && w[1]).length;
 }
 
 function chk_word(){
@@ -106,7 +106,7 @@ function start(){
         return;
     }
     do {
-        word_idx = Math.floor(Math.random() * 75) * 20 + parseInt(clicked) - 1;
+        word_idx = Math.floor(Math.random() * 60) * 25 + parseInt(clicked) - 1;
     } while (!chk_word());
     used_idx.push(word_idx);
     word = w2027[word_idx][0];
